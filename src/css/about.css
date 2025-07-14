@@ -1,0 +1,82 @@
+.futureaims {
+  padding: 150px 0;
+  background-color: #2e3d16;
+  position: relative;
+  z-index: -1;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.futureaims h3:before {
+  content: attr(data-text);
+  font-size: 18vw;
+  font-weight: 800;
+  opacity: 0.05;
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aims-section {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aims-section h2 {
+  margin-bottom: 0px;
+  font-weight: 800;
+  font-size: 8vw;
+  line-height: 1.2;
+}
+
+.aims-section p {
+  display: block;
+  padding-left: 20px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.aims-section ul {
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+.aims-section .big-text {
+  font-size: 7vw;
+}
+.aims-section img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 786px) {
+  .futureaims {
+    padding: 80px 0;
+  }
+  .aims-section p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+  .aims-section ul {
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  .aims-section img {
+    height: auto;
+  }
+}

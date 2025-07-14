@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: pritamkarar/bac-blogs-website   # 👈 your GitHub repo
+  branch: main
+  site_domain: https://bac.pritam.pp.ua/
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "news"
+    label: "News"
+    folder: "src/news"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: true }
+      - { label: "Banner Title", name: "bannerTitle", widget: "string" }
+      - { label: "Banner Description", name: "bannerDescription", widget: "string" }
+      - { label: "Display Date", name: "displayDate", widget: "string" }
+      - { label: "Author Name", name: "author", widget: "string" }
+      - { label: "Author Image", name: "authorImage", widget: "image" }
+      - { label: "Main Image", name: "image", widget: "image" }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Subtitle", name: "subTitle", widget: "text" }
+      - { label: "Short Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/news.njk" }
+      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/news/{{slug}}/index.html" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: ["news"] }

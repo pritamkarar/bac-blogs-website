@@ -1,0 +1,156 @@
+.centering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.bannervideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+.bannervideo video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.noise-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('/images/bg-noise.gif');
+  opacity: 0.04;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 0;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery h6 {
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 60px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.gallery h2:before {
+  content: attr(data-text);
+  font-size: 20vw;
+  opacity: 0.05;
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.2;
+}
+
+.gallery-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.gallery-item figure {
+  margin: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-item figure img {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 786px) {
+  .gallery-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header .container h1 span:nth-child(3) {
+    margin-left: 0%;
+    transform: translateY(0%);
+  }
+  .header .container h1 {
+    font-size: 12vw;
+  }
+  .gallery {
+    padding: 80px 0;
+  }
+  .gallery h2 {
+    font-size: 45px;
+  }
+  .gallery h6 {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .work-with-us h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 45px;
+  }
+  .work-with-us h4 {
+    margin-bottom: 15px;
+  }
+  .right ul {
+    padding-left: 25px;
+  }
+  .custom-link {
+    margin-bottom: 30px;
+  }
+  .clients ul {
+    margin-top: 0;
+  }
+  .clients h2 {
+    margin-bottom: 15px;
+  }
+  .clients h4 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 525px) {
+  .gallery-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
