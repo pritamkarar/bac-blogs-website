@@ -1,145 +1,205 @@
-<div class="preloader">
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="inner" data-tilt data-tilt-perspective="2000">
-    <figure class="fadeInUp animated">
-      <img src="/images/preloader.gif" alt="Image"/>
-    </figure>
-    <span class="typewriter" id="typewriter"></span>
-  </div>
-  <!-- end inner -->
-</div>
-<!-- end preloader -->
-<div class="transition-overlay">
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-</div>
-<!-- end transition-overlay -->
-<div class="navigation-menu">
-  <div class="bg-layers">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  <!-- end bg-layers -->
-  <div class="inner" data-tilt data-tilt-perspective="2000">
-    <div class="menu">
-      <ul>
-        <li><a href="/">START</a></li>
-        <li><a href="/about">ABOUT US</a></li>
-        <li><a href="/services">SERVICES</a></li>
-        <li><a href="/news">NEWS</a></li>
-        <li><a href="/hello">HELLO</a></li>
-      </ul>
-    </div>
-    <!-- end menu -->
-  </div>
-  <!-- end inner -->
-</div>
-<!-- end navigation-menu -->
-<nav class="navbar">
-  <div class="left">
-    <a href="/direction">DIRECTION</a>
-  </div>
-  <!-- end left -->
-  <div class="logo">
-    <a href="/"><img src="/images/logo.png" alt="Image"/> </a>
-  </div>
-  <!-- end logo -->
-  <div class="right">
-    <ul class="language">
-      <li>
-        <a href="#">EN</a>
-      </li>
-      <li>
-        <a href="#">RU</a>
-      </li>
-    </ul>
-    <div class="hamburger-menu">
-      <b>MENU</b>
-      <div class="hamburger" id="hamburger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="theme-color" content="#e8293b"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <title>
+      {% if title %}
+        {{ title }} |
+      {% endif %}
+      Brabus | Contemporary Modern Portfolio for Agencies</title>
+    <meta name="author" content="Themezinho"/>
+    <meta name="description" content="{{ description | default('Brabus | Contemporary Modern Portfolio for Agencies') }}"/>
+    <meta
+    name="keywords" content="{{ keywords | default('creative, works, showcase, portfolio, highlight, projects, modern, agency, digital, studio, css, animation, transition, freelancers') }}"/> <!-- Open Graph Meta -->
+    <meta property="og:title" content="{{ title | default('Brabus') }}"/>
+    <meta property="og:description" content="{{ description | default('Brabus | Contemporary Modern Portfolio for Agencies') }}"/>
+    <meta property="og:image" content="{{ image | default('/images/preview.png') }}"/>
+    <meta property="og:site_name" content="Brabus"/>
+    <meta property="og:type" content="website"/>
+    <meta
+    property="og:url" content="{{ url | default('https://example.com') }}"/> <!-- Twitter Meta -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@brabus"/>
+    <meta name="twitter:creator" content="@brabus"/>
+    <meta name="twitter:title" content="{{ title | default('Brabus') }}"/>
+    <meta name="twitter:description" content="{{ description | default('Brabus | Contemporary Modern Portfolio for Agencies') }}"/>
+    <meta
+    name="twitter:image" content="{{ image | default('/images/preview.png') }}"/> <!-- Favicon -->
+    <link href="/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144"/>
+    <link href="/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114"/>
+    <link href="/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72"/>
+    <link href="/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon"/>
+    <link
+    href="/ico/favicon.png" rel="shortcut icon"/> <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/animate.min.css"/>
+    <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/odometer.min.css"/>
+    <link rel="stylesheet" href="/css/fancybox.min.css"/>
+    <link rel="stylesheet" href="/css/swiper.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/home.css"/>
+    <link rel="stylesheet" href="/css/about.css"/>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="inner" data-tilt data-tilt-perspective="2000">
+        <figure class="fadeInUp animated">
+          <img src="/images/preloader.gif" alt="Image"/>
+        </figure>
+        <span class="typewriter" id="typewriter"></span>
       </div>
+      <!-- end inner -->
     </div>
-    <!-- end hamburger-menu -->
-  </div>
-  <!-- end right -->
-</nav>
-<!-- end navbar -->
-
-{% if page.url == '/' %}
-<header class="header">
-  <div class="bannervideo">
-    <video src="../videos/banner.mp4" muted loop autoplay></video>
-  </div>
-  <div class="overlay"></div>
-  <div class="noise-video"></div>
-  <aside class="left-side">
-    <ul>
-      <li><a href="#">FACEBOOK</a></li>
-      <li><a href="#">BEHANCE</a></li>
-      <li><a href="#">DRIBBBLE</a></li>
-    </ul>
-  </aside>
-  <!-- end left-side -->
-  <div class="scroll-down">
-    <small>SCROLL DOWN</small>
-    <span></span>
-  </div>
-  <!-- end scroll-down -->
-  <div class="sound">
-    <span>
-      SOUND
-    </span>
-    <div class="equalizer">
-      <div class="holder">
-        <span></span>
-        <span></span>
+    <!-- end preloader -->
+    <div class="transition-overlay">
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+    </div>
+    <!-- end transition-overlay -->
+    <div class="navigation-menu">
+      <div class="bg-layers">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <!-- end holder -->
+      <!-- end bg-layers -->
+      <div class="inner" data-tilt data-tilt-perspective="2000">
+        <div class="menu">
+          <ul>
+            <li><a href="/">START</a></li>
+            <li><a href="/about">ABOUT US</a></li>
+            <li><a href="/services">SERVICES</a></li>
+            <li><a href="/news">NEWS</a></li>
+            <li><a href="/hello">HELLO</a></li>
+          </ul>
+        </div>
+        <!-- end menu -->
+      </div>
+      <!-- end inner -->
     </div>
-    <!-- end equalizer -->
-  </div>
-
-{% else %}
-  <header class="page-header">
-  <div class="video-bg">
-    <video src="../videos/video2.mp4" muted loop autoplay></video>
-  </div>
-  <!-- end video-bg -->
-  <div class="container">
-  	<h1>{{bannerTitle}}</h1>
-  	<p>{{bannerDescription}}</p>
-  </div>
-  <!-- end container -->
-  <aside class="left-side">
-    <ul>
-      <li><a href="#">FACEBOOK</a></li>
-      <li><a href="#">BEHANCE</a></li>
-      <li><a href="#">DRIBBBLE</a></li>
-    </ul>
-  </aside>
-  <!-- end left-side -->
-  <div class="scroll-down"><small>SCROLL DOWN</small><span></span></div>
-  <!-- end scroll-down -->
-  <div class="sound"> <span> SOUND </span>
-    <div class="equalizer">
-      <div class="holder"> <span></span> <span></span> <span></span> <span></span><span></span><span></span> </div>
-      <!-- end holder --> 
-    </div>
-    <!-- end equalizer --> 
-  </div>
-  <!-- end sound -->
-</header>
-{% endif %}
+    <!-- end navigation-menu -->
+    <nav class="navbar">
+      <div class="left">
+        <a href="/direction">DIRECTION</a>
+      </div>
+      <!-- end left -->
+      <div class="logo">
+        <a href="/"><img src="/images/logo.png" alt="Image"/>
+        </a>
+      </div>
+      <!-- end logo -->
+      <div class="right">
+        <ul class="language">
+          <li>
+            <a href="#">EN</a>
+          </li>
+          <li>
+            <a href="#">RU</a>
+          </li>
+        </ul>
+        <div class="hamburger-menu">
+          <b>MENU</b>
+          <div class="hamburger" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- end hamburger-menu -->
+      </div>
+      <!-- end right -->
+    </nav>
+    <!-- end navbar -->
+    {% if page.url == '/' %}
+      <header class="header">
+        <div class="bannervideo">
+          <video src="../videos/banner.mp4" muted loop autoplay></video>
+        </div>
+        <div class="overlay"></div>
+        <div class="noise-video"></div>
+        <aside class="left-side">
+          <ul>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">BEHANCE</a></li>
+            <li><a href="#">DRIBBBLE</a></li>
+          </ul>
+        </aside>
+        <!-- end left-side -->
+        <div class="scroll-down">
+          <small>SCROLL DOWN</small>
+          <span></span>
+        </div>
+        <!-- end scroll-down -->
+        <div class="sound">
+          <span>
+            SOUND
+          </span>
+          <div class="equalizer">
+            <div class="holder">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- end holder -->
+          </div>
+          <!-- end equalizer -->
+        </div>
+      {% else %}
+        <header class="page-header">
+          <div class="video-bg">
+            <video src="../videos/video2.mp4" muted loop autoplay></video>
+          </div>
+          <!-- end video-bg -->
+          <div class="container">
+            <h1>{{ bannerTitle }}</h1>
+            <p>{{ bannerDescription }}</p>
+          </div>
+          <!-- end container -->
+          <aside class="left-side">
+            <ul>
+              <li><a href="#">FACEBOOK</a></li>
+              <li><a href="#">BEHANCE</a></li>
+              <li><a href="#">DRIBBBLE</a></li>
+            </ul>
+          </aside>
+          <!-- end left-side -->
+          <div class="scroll-down">
+            <small>SCROLL DOWN</small>
+            <span></span>
+          </div>
+          <!-- end scroll-down -->
+          <div class="sound">
+            <span>
+              SOUND
+            </span>
+            <div class="equalizer">
+              <div class="holder">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <!-- end holder -->
+            </div>
+            <!-- end equalizer -->
+          </div>
+          <!-- end sound -->
+        </header>
+      {% endif %}
