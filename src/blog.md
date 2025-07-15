@@ -1,20 +1,20 @@
 ---
 layout: layouts/base.njk
-title: News
-bannerTitle: News
+title: Blogs
+bannerTitle: Blogs
 bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
 ---
 
-<section class="news">
+<section class="blogs">
   <div class="container">
     <div class="row">
       <div class="col-12">
-		{% for post in collections.news %}
+		{% for post in collections.blogs %}
 			<div class="post wow fadeIn">
 				<figure class="post-image">
 					<img src="{{post.data.image}}" alt="Image">
 				</figure>
-				<!-- end news-image -->
+				<!-- end blogs-image -->
 				<div class="post-content">
 					<div class="inner">
 						<small class="post-date">{{post.data.displayDate}}</small>

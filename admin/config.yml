@@ -8,9 +8,9 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "news"
-    label: "News"
-    folder: "src/news"
+  - name: "blogs"
+    label: "blogs"
+    folder: "src/blogs"
     create: true
     slug: "{{slug}}"
     fields:
@@ -27,6 +27,6 @@ collections:
       - { label: "Short Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/news.njk" }
-      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/news/{{slug}}/index.html" }
-      - { label: "Tags", name: "tags", widget: "hidden", default: ["news"] }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/blogs.njk" }
+      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/blogs/{{slug}}/index.html" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: ["blogs"] }

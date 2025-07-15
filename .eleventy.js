@@ -10,8 +10,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("public/uploads");
 
-  eleventyConfig.addCollection("news", function(collectionApi) {
-     return collectionApi.getFilteredByTag("news");
+  eleventyConfig.addCollection("blogs", function(collectionApi) {
+     return collectionApi.getFilteredByTag("blogs");
   });
 
   return {
