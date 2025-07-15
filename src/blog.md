@@ -9,7 +9,7 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
   <div class="container">
     <div class="row">
       <div class="col-12">
-		{% for post in collections.blogs %}
+		{% for post in collections.blog %}
 			<div class="post wow fadeIn">
 				<figure class="post-image">
 					<img src="{{post.data.image}}" alt="Image">
