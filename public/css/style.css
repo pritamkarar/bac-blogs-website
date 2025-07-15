@@ -800,6 +800,13 @@ p{
 }
 .header .container h1 span {
   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+   margin-left: 4%;
+  color: transparent;
+}
+
+.header .container h1 span:nth-child(2) {
+  -webkit-text-stroke-width: 1px;
   transform: translateY(-20%);
   margin-left: 4%;
   display: flex;
@@ -1050,7 +1057,7 @@ header .sound .equalizer .holder {
 /* NAVBAR */
 .navbar {
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   padding: 20px 40px;
@@ -1066,6 +1073,18 @@ header .sound .equalizer .holder {
   -webkit-transition-duration: 700ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.navbar-scroll{
+   transform: translateY(0%);
+  transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(65, 65, 65, 0.3);
 }
 .navbar a {
   color: #fff;
@@ -1962,6 +1981,7 @@ s .process span:before {
   font-family: "Fjalla One", sans-serif;
   opacity: 0.5;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .clients h2 {
   margin-bottom: 30px;
@@ -2180,11 +2200,12 @@ s .process span:before {
 }
 .hello h2:before {
   content: attr(data-text);
-  font-size: 20vw;
+  font-size: 16vw;
   opacity: 0.05;
   z-index: -1;
   position: absolute;
-  left: 0;
+  transform: translate(-50%, 0%);
+  left: 50%;
   top: -20%;
 }
 .hello address {
