@@ -230,3 +230,36 @@ $(window).scroll(function(){
        $('#navbar').removeClass('navbar-scroll');
     }
 });
+
+let player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    videoId: 'iUtnZpzkbG8',
+    playerVars: {
+      autoplay: 1,
+      controls: 0,
+      loop: 1,
+      playlist: 'iUtnZpzkbG8',
+      mute: 1,
+      modestbranding: 1,
+      rel: 0,
+      fs: 0,
+      iv_load_policy: 3,
+      cc_load_policy: 0,
+      disablekb: 1
+    },
+    events: {
+      onReady: onPlayerReady
+    }
+  });
+}
+
+ function onPlayerReady(event) {
+      event.target.playVideo();
+      setTimeout(() => {
+        const cover = document.getElementById('cover');
+        cover.style.opacity = '0';
+        setTimeout(() => cover.style.display = 'none', 1000);
+      }, 3000);
+    }
+
