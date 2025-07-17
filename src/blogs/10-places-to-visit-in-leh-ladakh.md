@@ -16,8 +16,8 @@ description: "Ladakh is a dream destination for every rider who envisions
   terrain on a motorcycle? "
 featuredImage: /uploads/img20241208110935.jpg
 UpperSection: >-
-  ## **What are the best places to visit on your Himalayas Motorcycle tour:
-  Ladakh Edition?**
+  What are the best places to visit on your Himalayas Motorcycle tour: Ladakh
+  Edition?
 
 
   #### 1. Umling La – The Highest Motorable Pass in the World
