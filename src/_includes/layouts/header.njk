@@ -158,48 +158,64 @@
             <!-- end holder -->
           </div>
           <!-- end equalizer -->
-        </div>
-      {% else %}
-        <header class="page-header">
-          <div class="video-bg">
-            <video src="../videos/video2.mp4" muted loop autoplay></video>
-          </div>
-          <!-- end video-bg -->
-          <div class="container">
-            <h1>{{ bannerTitle }}</h1>
-            <p>{{ bannerDescription }}</p>
-          </div>
-          <!-- end container -->
-          <aside class="left-side">
-            <ul>
-              <li><a href="#">FACEBOOK</a></li>
-              <li><a href="#">BEHANCE</a></li>
-              <li><a href="#">DRIBBBLE</a></li>
-            </ul>
-          </aside>
-          <!-- end left-side -->
-          <div class="scroll-down">
-            <small>SCROLL DOWN</small>
-            <span></span>
-          </div>
-          <!-- end scroll-down -->
-          <div class="sound">
-            <span>
-              SOUND
-            </span>
-            <div class="equalizer">
-              <div class="holder">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <!-- end holder -->
+        </div>        
+        <div class="container">
+          <div class="centering">
+            <div class="tagline">
+              <span></span>
+              <h6>FOR THE MINDFUL EXPLORERS</h6>
             </div>
-            <!-- end equalizer -->
+            <h1>
+              Bengal<br />
+              <span>Adventures</span>
+              <span>Club</span>
+            </h1>
           </div>
-          <!-- end sound -->
-        </header>
-      {% endif %}
+        </div>
+      </header>
+    {% elif page.fileSlug == 'blog' or page.fileSlug == 'services' or page.fileSlug == 'about' %}
+      <header class="page-header">
+        <div class="video-bg">
+          <video src="../videos/video2.mp4" muted loop autoplay></video>
+        </div>
+        <!-- end video-bg -->
+        <div class="container">
+          <h1>{{ bannerTitle }}</h1>
+          <p>{{ bannerDescription }}</p>
+        </div>
+        <!-- end container -->
+        <aside class="left-side">
+          <ul>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">BEHANCE</a></li>
+            <li><a href="#">DRIBBBLE</a></li>
+          </ul>
+        </aside>
+        <!-- end left-side -->
+        <div class="scroll-down">
+          <small>SCROLL DOWN</small>
+          <span></span>
+        </div>
+        <!-- end scroll-down -->
+        <div class="sound">
+          <span>
+            SOUND
+          </span>
+          <div class="equalizer">
+            <div class="holder">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- end holder -->
+          </div>
+          <!-- end equalizer -->
+        </div>
+        <!-- end sound -->
+      </header>
+    {% else %}
+      <div class="blogDetails_header"></div>
+    {% endif %}
