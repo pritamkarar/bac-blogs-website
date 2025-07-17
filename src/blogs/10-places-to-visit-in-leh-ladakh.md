@@ -111,7 +111,7 @@ UpperSection: >-
 
 
   You can Visit Dah and Hanu in our [Ladakh Motorcycle Tour Package](https://thedreamridersgroup.com/srinagarToManali.php)
-QuoteSection: Find mindfulness and self-reflection among Leh Ladakh’s Himalayan peaks.
+QuoteContent: Find mindfulness and self-reflection among Leh Ladakh’s Himalayan peaks.
 QuoteAuthor: Admin
 LowerSection: >-
   ### **8. Pangong Lake - The Color Changing Lake**
@@ -162,6 +162,7 @@ LowerSection: >-
 
 
   Ready to ride the Himalayas? The mountains are calling—and your throttle is the only answer they need.
+QuoteSection: Find mindfulness and self-reflection among Leh Ladakh’s Himalayan peaks.
 date: 2025-07-17T08:36:07.099Z
 layout: layouts/blog.njk
 permalink: /blog/{{slug}}/index.html
