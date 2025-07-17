@@ -20,7 +20,7 @@ UpperSection: >-
   Edition?
 
 
-  #### 1. Umling La – The Highest Motorable Pass in the World
+  ### 1. Umling La – The Highest Motorable Pass in the World
 
 
   At an altitude of 19,024 feet, Umling La is not just a road, it's the roof of the world. Just reaching it is a badge of honor. Oxygen levels are 50% of what you're used to. Your Motorcycle will gasp for air and your lungs will work overtime. Your machine will grunt. Your resolve will be tested. But the moment you throttle into the sky and reach that summit? It’s transcendent. You don’t just *ride* to Umling La—you become part of the Himalayas.
@@ -35,7 +35,7 @@ UpperSection: >-
   **Must Read:** [Umling La pass at 19024ft](https://thedreamridersgroup.com/blogs/umling-la-pass-at-19300-ft-why-when-how)
 
 
-  **2. Zoji La Pass – Gateway to Madness**
+  ### **2. Zoji La Pass – Gateway to Madness**
 
 
   If roads had moods, Zoji La would be absolute chaos. One minute you're hugging cliffs, the next you're dodging landslides, loose gravel, and slush-laced hairpins. Sitting at 11,649 ft, this treacherous gateway from Kashmir into Ladakh is not for the faint-hearted.
@@ -135,8 +135,6 @@ LowerSection: >-
   Don't Miss: The early morning prayers—the chants, and the aroma of incense make for a soul-stirring experience amid your wild ride.
 
 
-
-
   ### **10. Turtuk Village – The Last Village of India**
 
 
@@ -146,7 +144,7 @@ LowerSection: >-
   You can visit Turtuk in our [8 Days Ladakh Motorcycle Tour Package](https://thedreamridersgroup.com/leh-premium-tour-8-days.php)
 
 
-  ## **Final Thoughts**
+  ### **Final Thoughts**
 
 
   A motorcycle tour through Leh Ladakh isn’t just a journey—it’s a transformation. It strips you down to the essentials and rebuilds you with every mile. Whether it’s the razor-thin air of Umling La or the reflective stillness of Tso Kar, Ladakh demands your attention, your endurance, and your respect.
