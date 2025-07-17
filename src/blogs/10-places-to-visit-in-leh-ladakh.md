@@ -20,7 +20,7 @@ UpperSection: >-
   Ladakh Edition?**
 
 
-  ### 1. Umling La – The Highest Motorable Pass in the World
+  ### **1. Umling La – The Highest Motorable Pass in the World**
 
 
   At an altitude of 19,024 feet, Umling La is not just a road, it's the roof of the world. Just reaching it is a badge of honor. Oxygen levels are 50% of what you're used to. Your Motorcycle will gasp for air and your lungs will work overtime. Your machine will grunt. Your resolve will be tested. But the moment you throttle into the sky and reach that summit? It’s transcendent. You don’t just *ride* to Umling La—you become part of the Himalayas.
