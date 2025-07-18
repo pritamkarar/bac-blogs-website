@@ -57,7 +57,7 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           </div>
           <!-- end col-6 -->
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.05s">
-            <form class="row inner" id="contact" name="contact" method="post">
+            <form class="row inner" id="contact" name="contact" netlify>
               <div class="form-group col-sm-6 col-12">
                 <label><span>Your name</span></label>
                 <input type="text" name="name" id="name" required />
@@ -84,7 +84,7 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
               </div>
               <!-- end form-group -->
               <div class="form-group col-12">
-                <button id="submit" type="submit" name="submit">SUBMIT</button>
+                <button id="submit" type="submit">SUBMIT</button>
               </div>
               <!-- end form-group -->
             </form>
