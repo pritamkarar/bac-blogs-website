@@ -3,20 +3,6 @@ layout: layouts/base.njk
 title: Home
 ---
 
-   <div class="container">
-  <div class="centering">
-    <div class="tagline">
-      <span></span>
-      <h6>FOR THE MINDFUL EXPLORERS</h6>
-    </div>
-    <h1>
-      Bengal<br />
-      <span>Adventures</span>
-      <span>Club</span>
-    </h1>
-  </div>
-</div>
-</header>
  <section class="intro">
       <div class="container">
         <div class="row">

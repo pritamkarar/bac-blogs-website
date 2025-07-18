@@ -16,16 +16,17 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string", required: true }
-      - { label: "Banner Title", name: "bannerTitle", widget: "string" }
-      - { label: "Banner Description", name: "bannerDescription", widget: "string" }
       - { label: "Display Date", name: "displayDate", widget: "string" }
       - { label: "Author Name", name: "author", widget: "string" }
       - { label: "Author Image", name: "authorImage", widget: "image" }
       - { label: "Main Image", name: "image", widget: "image" }
-      - { label: "Featured Image", name: "featuredImage", widget: "image" }
       - { label: "Subtitle", name: "subTitle", widget: "text" }
       - { label: "Short Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Upper Content Section", name: "UpperSection", widget: "markdown" }
+      - { label: "Quote Content", name: "QuoteContent", widget: "text" }
+      - { label: "Quote Author", name: "QuoteAuthor", widget: "text" }
+      - { label: "Lower Content Section", name: "LowerSection", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/blog.njk" }
       - { label: "Permalink", name: "permalink", widget: "hidden", default: "/blog/{{slug}}/index.html" }

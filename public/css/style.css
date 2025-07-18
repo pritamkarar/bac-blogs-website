@@ -2031,6 +2031,7 @@ s .process span:before {
 }
 .news .post.single-post .post-content .inner .post-title {
   font-size: 66px;
+  color: white;
 }
 .news .post.single-post .post-image {
   margin-bottom: 30px;
@@ -2048,6 +2049,8 @@ s .process span:before {
 }
 .news .post .post-image img {
   width: 100%;
+  min-height: 300px;
+  object-fit: cover;
 }
 .news .post .post-content {
   flex: 1;
@@ -2122,7 +2125,6 @@ s .process span:before {
   display: block;
   font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
-  margin-bottom: 30px;
 }
 .news .post .post-content .inner .post-author img {
   width: 50px;
@@ -2168,9 +2170,28 @@ s .process span:before {
 .news .post .post-content .inner ul li {
   line-height: 1.9;
 }
-.news .post .post-content .inner p {
+.news .post .post-content .inner .uppersection,
+.news .post .post-content .inner .lowersection {
   display: block;
   line-height: 30px;
+  margin-bottom:30px;
+}
+.news .post .post-content .inner .uppersection h2,
+.news .post .post-content .inner .lowersection h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.news .post .post-content .inner .uppersection p,
+.news .post .post-content .inner .lowersection p{
+  margin-bottom: 10px;
+}
+
+.news .post .post-content .inner pre{
+  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 .news .post .post-content .inner p:last-child {
   margin-bottom: 0;
@@ -2969,4 +2990,9 @@ s .process span:before {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 575px) {
+  .news .post .post-image img {
+    min-height: 200px;
+    max-height: 300px;
+  }
+}
