@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/home.css"/>
     <link rel="stylesheet" href="/css/about.css"/>
+    <link rel="stylesheet" href="/css/jquery.mb.YTPlayer.min.css"/>
   </head>
   <body>
     <div class="preloader">
@@ -128,7 +129,7 @@
     
       <header class="header">
         <div class="bannervideo">
-          <div id="player"></div>
+          <div class="player" style="z-index:1; height:100vh;" data-property="{videoURL:'https://youtu.be/iUtnZpzkbG8',containment:'.player', showControls:false, addRaster: false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1}"></div>	
            <div id="cover"></div>
         </div>
         <div class="overlay"></div>
@@ -598,7 +599,7 @@
     <script src="/js/fancybox.min.js"></script>
     <script src="/js/app.js"></script>
     <script src="/js/scripts.js"></script>
-    <script src="/js/contact.form.min.js"></script>
+     <script src="/js/jquery.mb.YTPlayer.min.js"></script>
   </body>
 </html></head></html>
    
