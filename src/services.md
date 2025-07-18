@@ -23,12 +23,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
                 <div class="inner">
                   <small>Guided treks across popular and offbeat locations.</small>
                   <h3><span>Trekking</span>Tours</h3>
-                  <div class="custom-link">
-                    <a href="works-single.html">
-                      <div class="lines"><span></span> <span></span></div>
-                      <b>LEARN MORE</b></a
-                    >
-                  </div>
                 </div>
               </div>
             </div>
@@ -42,12 +36,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
                 <div class="inner">
                   <small>Experience nature with fully-equipped campsites.</small>
                   <h3><span>Camping</span>Packages</h3>
-                  <div class="custom-link">
-                    <a href="works-single.html">
-                      <div class="lines"><span></span> <span></span></div>
-                      <b>LEARN MORE</b></a
-                    >
-                  </div>
                 </div>
               </div>
             </div>
@@ -61,12 +49,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
                 <div class="inner">
                   <small>Rock climbing, rappelling, river rafting, and more.</small>
                   <h3><span>Adventure</span>Sports</h3>
-                  <div class="custom-link">
-                    <a href="works-single.html">
-                      <div class="lines"><span></span> <span></span></div>
-                      <b>LEARN MORE</b></a
-                    >
-                  </div>
                 </div>
               </div>
             </div>
@@ -77,9 +59,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
  before. Soak into the warmth of Nature and forget the daily chaos of
  office life.</small>
               <h3><span>Corporate</span>Retreats</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div>
             </div>
           </div>
         </div>
@@ -87,10 +66,7 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           <figure> <a href="https://ridermagazine.com/wp-content/uploads/2021/02/RawHyde-Adventures-Adventure-Riding-School-Review-1.jpg" data-fancybox><img src="https://ridermagazine.com/wp-content/uploads/2021/02/RawHyde-Adventures-Adventure-Riding-School-Review-1.jpg" alt="Image"></a></figure>
           <div class="content-box">
             <div class="inner"> <small>Plan a once-in-a-lifetime trip with your college buddies without breaking the bank.</small>
-              <h3 class="small-text"><span class="big-text">College-goers</span>Weekend Explorations</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div> 
+              <h3 class="small-text"><span class="big-text">College-goers</span>Weekend Explorations</h3> 
             </div>
           </div> 
         </div>
@@ -99,9 +75,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           <div class="content-box">
             <div class="inner"> <small></small>
               <h3><span>Self-Drive</span>Expeditions</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div>
             </div>
           </div>
         </div>
@@ -109,10 +82,7 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           <figure> <a href="https://www.brahmandtour.com/img/motorbiketour/srinagar-leh-bike-tour.webp" data-fancybox><img src="https://www.brahmandtour.com/img/motorbiketour/srinagar-leh-bike-tour.webp" alt="Image"></a></figure>
           <div class="content-box">
             <div class="inner"> <small></small>
-              <h3><span class="big-text">Bike & Road</span>Trips</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div> 
+              <h3><span class="big-text">Bike & Road</span>Trips</h3> 
             </div>
           </div>
         </div> 
@@ -121,9 +91,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           <div class="content-box">
             <div class="inner"> <small></small>
               <h3 class="small-text"><span>Safaris for</span> Travellers</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div>
             </div>
           </div>
         </div>
@@ -131,10 +98,7 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           <figure> <a href="https://lifeontheplanetladakh.com/wp-content/uploads/2024/11/IMG_6383.jpeg" data-fancybox><img src="https://lifeontheplanetladakh.com/wp-content/uploads/2024/11/IMG_6383.jpeg" alt="Image"></a></figure>
           <div class="content-box">
             <div class="inner"> <small></small>
-              <h3 class="small-text"><span class="big-text">Wildlife Retreat for </span>Photographers</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div> 
+              <h3 class="small-text"><span class="big-text">Wildlife Retreat for </span>Photographers</h3> 
             </div>
           </div>
         </div>
@@ -143,9 +107,6 @@ bannerDescription: TO CREATE A POWERFUL PROJECT ONCE, A BIT OF LUCK IS ENOUGH
           <div class="content-box">
             <div class="inner"> <small></small>
               <h3 class="small-text"><span>Guide for</span>Foreign Visitors</h3>
-              <div class="custom-link"> <a href="works-single.html">
-                <div class="lines"> <span></span> <span></span> </div>
-                <b>LEARN MORE</b></a> </div>
             </div>
           </div>
         </div> 

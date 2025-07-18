@@ -33,7 +33,7 @@ title: Home
 
 <section class="services-content-block">
       <div class="video-bg">
-        <video src="../videos/about.mp4" muted loop autoplay></video>
+        <video src="../videos/about.mp4" preload='none' muted loop autoplay></video>
       </div>
       <div class="container">
         <div class="row">
@@ -123,7 +123,7 @@ title: Home
                   data-fancybox
                   ><img
                     src="https://www.adventurush.com/wp-content/uploads/2022/07/Leh-to-Leh-Bike-Expedition.jpg"
-                    alt="Image"
+                    alt="Image" loading="lazy"
                 /></a>
               </figure>
               <div class="content-box">
@@ -133,7 +133,7 @@ title: Home
                   >
                   <h3><span>Trekking</span>Tours</h3>
                   <div class="custom-link">
-                    <a href="works-single.html">
+                    <a href="/services">
                       <div class="lines"><span></span> <span></span></div>
                       <b>LEARN MORE</b></a
                     >
@@ -148,7 +148,7 @@ title: Home
                   data-fancybox
                   ><img
                     src="https://cdn4.louis.de/r/171a8b0950d90083b215be852d7790f133fd294e/camping-1-2800x1574.jpg"
-                    alt="Image"
+                    alt="Image" loading="lazy"
                 /></a>
               </figure>
               <div class="content-box">
@@ -158,7 +158,7 @@ title: Home
                   >
                   <h3><span>Camping</span>Packages</h3>
                   <div class="custom-link">
-                    <a href="works-single.html">
+                    <a href="/services">
                       <div class="lines"><span></span> <span></span></div>
                       <b>LEARN MORE</b></a
                     >
@@ -173,7 +173,7 @@ title: Home
                   data-fancybox
                   ><img
                     src="https://static.wixstatic.com/media/296c96_3ff96a421fe941598976a2c334abc4e2~mv2.jpg"
-                    alt="Image"
+                    alt="Image" loading="lazy"
                 /></a>
               </figure>
               <div class="content-box">
@@ -183,7 +183,7 @@ title: Home
                   >
                   <h3><span>Adventure</span>Sports</h3>
                   <div class="custom-link">
-                    <a href="works-single.html">
+                    <a href="/services">
                       <div class="lines"><span></span> <span></span></div>
                       <b>LEARN MORE</b></a
                     >
@@ -234,7 +234,7 @@ title: Home
           >
             <img
               src="https://indiabullriders.com/_ibrmc/bulletiapa_group_2023.CZmgseIe_Z1KHPSc.webp"
-              alt=""
+              alt=""  loading="lazy"
               class="img-fluid object-fit-cover"
             />
           </div>
@@ -272,7 +272,7 @@ title: Home
           <div class="col-lg-6 col-md-6 wow fadeIn">
             <img
               src="https://lifeontheplanetladakh.com/wp-content/uploads/2024/11/IMG_6383.jpeg"
-              alt=""
+              alt="" loading="lazy"
               class="img-fluid object-fit-cover"
               style="border-radius: 10px"
             />
@@ -298,7 +298,7 @@ title: Home
                 data-fancybox
                 ><img
                   src="https://static.wixstatic.com/media/296c96_3ff96a421fe941598976a2c334abc4e2~mv2.jpg"
-                  alt="Image"
+                  alt="Image" loading="lazy"
               /></a>
             </figure>
             <figure>
@@ -307,7 +307,7 @@ title: Home
                 data-fancybox
                 ><img
                   src="https://lifeontheplanetladakh.com/wp-content/uploads/2024/11/IMG_6383.jpeg"
-                  alt="Image"
+                  alt="Image" loading="lazy"
               /></a>
             </figure>
             <figure>
@@ -316,7 +316,7 @@ title: Home
                 data-fancybox
                 ><img
                   src="https://www.adventurush.com/wp-content/uploads/2022/07/Leh-to-Leh-Bike-Expedition.jpg"
-                  alt="Image"
+                  alt="Image" loading="lazy"
               /></a>
             </figure>
             <figure>
@@ -325,7 +325,7 @@ title: Home
                 data-fancybox
                 ><img
                   src="https://cdn4.louis.de/r/171a8b0950d90083b215be852d7790f133fd294e/camping-1-2800x1574.jpg"
-                  alt="Image"
+                  alt="Image" loading="lazy"
               /></a>
             </figure>
             <figure>
@@ -334,7 +334,7 @@ title: Home
                 data-fancybox
                 ><img
                   src="https://indiabullriders.com/_ibrmc/bulletiapa_group_2023.CZmgseIe_Z1KHPSc.webp"
-                  alt="Image"
+                  alt="Image" loading="lazy"
               /></a>
             </figure>
             <figure>
@@ -342,7 +342,7 @@ title: Home
                 href="https://www.lonerider-motorcycle.com/cdn/shop/articles/2021-lone-rider-adv-riding-tips_1_1600x.jpg?v=1611687836"
                 data-fancybox
                 ><img
-                  src="https://www.lonerider-motorcycle.com/cdn/shop/articles/2021-lone-rider-adv-riding-tips_1_1600x.jpg?v=1611687836"
+                  src="https://www.lonerider-motorcycle.com/cdn/shop/articles/2021-lone-rider-adv-riding-tips_1_1600x.jpg?v=1611687836" loading="lazy"
                   alt="Image"
               /></a>
             </figure>
