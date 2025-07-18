@@ -10,7 +10,7 @@
       {% if title %}
         {{ title }} |
       {% endif %}
-      Brabus | Contemporary Modern Portfolio for Agencies</title>
+      BAC</title>
     <meta name="author" content="Themezinho"/>
     <meta name="description" content="{{ description | default('Brabus | Contemporary Modern Portfolio for Agencies') }}"/>
     <meta
@@ -28,7 +28,9 @@
     <meta name="twitter:title" content="{{ title | default('Brabus') }}"/>
     <meta name="twitter:description" content="{{ description | default('Brabus | Contemporary Modern Portfolio for Agencies') }}"/>
     <meta
-    name="twitter:image" content="{{ image | default('/images/preview.png') }}"/> <!-- Favicon -->
+    name="twitter:image" content="{{ image | default('/images/preview.png') }}"/> 
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- Favicon -->
     <link href="/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144"/>
     <link href="/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114"/>
     <link href="/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72"/>
@@ -125,7 +127,8 @@
     {% if page.url == '/' %}
       <header class="header">
         <div class="bannervideo">
-          <video src="../videos/banner.mp4" muted loop autoplay></video>
+          <div id="player"></div>
+           <div id="cover"></div>
         </div>
         <div class="overlay"></div>
         <div class="noise-video"></div>
@@ -176,7 +179,7 @@
     {% elif page.fileSlug == 'about' or page.fileSlug == 'services' or page.fileSlug == 'blog' or page.fileSlug == 'hello' %}
       <header class="page-header">
         <div class="video-bg">
-          <video src="../videos/video2.mp4" muted loop autoplay></video>
+          <video src="../videos/video2.mp4" muted loop autoplay lazyload></video>
         </div>
         <!-- end video-bg -->
         <div class="container">
