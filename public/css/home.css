@@ -22,13 +22,13 @@
     object-fit: cover;
 }
 
-#player {
+.player {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 120vw; /* extend beyond edges to fill all gaps */
-      height: 67.5vw; /* 16:9 aspect ratio */
+      z-index: 1;
+      top: 0%;
+      left: 0%;
+      width: 100vw;
+      height: 100vh;
       min-height: 100vh;
     }
 
@@ -133,12 +133,13 @@
 }
 
 @media (max-width: 786px) {
-    #player {
-    width: 360vw;
-    height: 100vh;
-  }
+
   .gallery-item {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .header .container h1 span:nth-child(2) {
+    margin-left: 0%;
+    transform: translateY(0%);
   }
   .header .container h1 span:nth-child(3) {
     margin-left: 0%;

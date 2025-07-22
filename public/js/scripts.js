@@ -2,6 +2,10 @@
   $(document).ready(function () {
     "use strict";
 
+    $(".player").each(function () {
+    $(this).mb_YTPlayer();
+});
+
     $(".project-box").hover(
       function () {
         // change hovered div background to yellow:
@@ -222,58 +226,6 @@
     });
   });
 })(jQuery);
-
-var tag = document.createElement("script");
-
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName("script")[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-let player;
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player("player", {
-    videoId: "iUtnZpzkbG8",
-    playerVars: {
-      autoplay: 1,
-      controls: 0,
-      loop: 1,
-      playlist: "iUtnZpzkbG8",
-      mute: 1,
-      modestbranding: 1,
-      rel: 0,
-      fs: 0,
-      iv_load_policy: 0,
-      cc_load_policy: 0,
-      disablekb: 1,
-    },
-    events: {
-      onReady: onPlayerReady,
-    },
-  });
-}
-
-function onPlayerReady(event) {
-  event.target.playVideo();
-}
-var done = false;
-function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.PLAYING && !done) {
-    setTimeout(stopVideo, 6000);
-    done = true;
-  }
-}
-function stopVideo() {
-  player.stopVideo();
-}
-
-function onPlayerReady(event) {
-  event.target.playVideo();
-  setTimeout(() => {
-    const cover = document.getElementById("cover");
-    cover.style.opacity = "0";
-    setTimeout(() => (cover.style.display = "none"), 1000);
-  }, 2000);
-}
 
 $(window).scroll(function () {
   if ($(this).scrollTop() > 80) {
