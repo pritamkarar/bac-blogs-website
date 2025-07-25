@@ -4,7 +4,7 @@ backend:
   branch: main
   site_domain: https://bengaladventuresclub.com/
 
-media_folder: "public/uploads"
+media_folder: "_site/uploads"
 public_folder: "/uploads"
 
 collections:

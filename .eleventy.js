@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/videos");
   eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("public/uploads");
+  eleventyConfig.addPassthroughCopy("_site/uploads");
 
   eleventyConfig.addCollection("blogs", function(collectionApi) {
     return collectionApi.getFilteredByTag("blogs");
@@ -28,7 +28,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "public"
+      output: "_site"
     },
     passthroughFileCopy: true,
   };
